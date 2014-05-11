@@ -1,0 +1,10 @@
+name: SpawnerCleaner
+main: com.caved_in.spawnercleaner.SpawnerCleaner
+version: 1.0
+description: Optimizes server by limiting the amount of mob-spawners per chunk.
+author: Brandon Curtis (TheGamersCave)
+softdepend: [Commons]
+commands:
+   spawners:
+      description: Used to view all information about mob spawners in/around th current chunk
+      usage: /<command>
